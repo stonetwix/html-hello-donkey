@@ -15,7 +15,7 @@ h1 {
 h2 {
     font-family: 'Staatliches', sans-serif;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -44,6 +44,38 @@ p {
 .headerFirstWord {
     font-family: 'Berkshire Swash', cursive;
     font-size: 6.5rem;
+}
+
+@media screen and (min-width: 1026px) {
+    #title-home {
+        background-image: url(assets/start-bg.jpg);
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .headerFirstWord {
+        font-size: 5rem;
+    }
+    #title-home {
+        background-image: url(assets/start-bg-smaller.png);
+    }
+    .welcome {
+        height: 40rem !important;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .drink-pic {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .tacos-headline {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .food-pics {
+        width: 60%;
+    }
 }
 
 .menu-headline {
@@ -109,9 +141,9 @@ header {
     background-image: url(assets/about-us-bg.jpg);
 }
 
-#title-home {
+/* #title-home {
     background-image: url(assets/start-bg.jpg);
-}
+} */
 
 #title-gallery {
     background-image: url(assets/k-food3.jpg);
