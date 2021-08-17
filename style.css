@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800;900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #474747;
+}
+
+h1 {
+    font-family: 'Saatliches', sans-serif;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Staatliches', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 2rem;
+}
+
+h5 {
+    font-weight: 600;
+    color: #df4545;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+.price {
+    font-weight: 900;
+}
+
+.food-pics {
+    width: 80%;
+}
+
+.headerFirstWord {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 6.5rem;
+}
+
+.menu-headline {
+    background-color: #61C9A8;
+    color: white;
+}
+
+.bg-menu {
+    background-color: #FFDBDA;
+}
+
+.swirl-left {
+    width: 5%;
+    margin-right: 1rem;
+}
+
+.swirl-right {
+    width: 5%;
+    margin-left: 1rem;
+}
+
+
+/* Header css start */
+
+header {
+    background-color: #61C9A8;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 10rem;
+    margin-top: 0.5rem;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+}
+
+.nav-item {
+    font-family: 'Staatliches', sans-serif;
+    padding-right: 1.5rem;
+}
+
+.navbar .navbar-nav li a {
+    color: white !important;
+}
+
+/* Header css end */
+
+/* Title section start */
+
+#title-home, #title-about, #title-gallery, #title-menu {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#title-about {
+    background-image: url(assets/about-us-bg.jpg);
+}
+
+#title-home {
+    background-image: url(assets/start-bg.jpg);
+}
+
+#title-gallery {
+    background-image: url(assets/k-food3.jpg);
+}
+
+#title-menu {
+    background-image: url(assets/menu-bg.jpg);
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 55rem;
+    color: white;
+    font-weight: bold;
+}
+
+.display-1 {
+    font-family: 'Staatliches', sans-serif;
+    color: #F2545B;
+    font-weight: 700;
+    animation-name: slide-down;
+    animation-duration: 2s;
+    margin-top: 0%;
+
+}
+
+.subtitle-hero {
+    font-size: 3.5rem;
+}
+
+/* Title section end */
+
+/* Main css start */
+
+hr.divider {
+    width: 5rem;
+    border-top: 0.3rem solid #df4545;
+    margin-left: 0;
+}
+
+hr.divider-center {
+    width: 5rem;
+    border-top: 0.3rem solid #df4545;
+}
+
+.button-primary {
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #df4545;
+    color: white;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.button-primary:hover {
+    background-color: #db5b5b;
+}
+
+.container-border {
+    border: 0.4rem double black;
+}
+
+.button-secondary {
+    border: 0.15rem solid black;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: black;
+    margin-top: 1rem;
+    font-weight: 700;
+    margin: 2rem 1rem;
+}
+
+.button-secondary:hover {
+    background-color: black;
+    color: white;
+}
+
+.img-fluid {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.container-testimonials {
+    background-image: url(assets/testimonial-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-testimonials h2 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.container-testimonials h3 {
+    font-size: 2.5rem;
+}
+
+.container-testimonials p {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+/* Main css end */
+
+/* Footer css start */
+
+footer {
+    background-color: #474747;
+    padding: 4rem 0 3rem 0;
+    margin-top: 3rem;
+    color: white;
+}
+
+h3.book {
+    text-decoration: underline;
+}
+
+h3.book:hover {
+    cursor: pointer;
+}
+
+footer h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer .col-sm {
+    margin-bottom: 2rem;
+}
+
+footer .fa-clock, .fa-map-marker-alt {
+    font-size: 2.5rem;
+}
+
+footer .fa-facebook, .fa-instagram-square, .fa-linkedin {
+    color: #F2545B;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+/* Footer css end */
+
+
+/* Form css start */
+
+input, textarea {
+    border-radius: 0 !important;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    background-color: #ffffffbb;
+}
+
+form button .btn, .btn-primary, .mb-2 {
+    color: #F2545B;
+    background-color: white;
+    border: 1px #F2545B solid;
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 0 !important;
+}
+
+form .btn-primary:hover {
+    background-color: #F2545B;
+    color: white;
+    border: 1px #F2545B solid;
+}
+
+/* Form css end */
+
+/* Keyeframes css start */
+
+@keyframes slide-down {
+    from {
+        margin-top:-10%
+    }
+    to {
+        margin-top: 0%;
+    }
+}
+
+/* Keyeframes css end */
+
+/* Media queries start */
+
+@media (max-width: 991px) {
+    .img-main {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    } 
+    .display-1 {
+        font-size: 3rem !important;
+    }
+    .subtitle-hero {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .display-1 {
+        font-size: 3rem;
+    }
+    .subtitle-hero {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-testimonials h2 {
+        font-size: 3rem;
+    }
+    .display-1 {
+        font-size: 2rem !important;
+    }
+    .subtitle-hero {
+        font-size: 1.5rem;
+    }
+    .welcome {
+        height: 30rem;
+    }
+}
+
+/* Media queries end */
