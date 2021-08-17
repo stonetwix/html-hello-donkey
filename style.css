@@ -52,32 +52,6 @@ p {
     }
 }
 
-@media screen and (max-width: 1025px) {
-    .headerFirstWord {
-        font-size: 5rem;
-    }
-    #title-home {
-        background-image: url(assets/start-bg-smaller.png);
-    }
-    .welcome {
-        height: 40rem !important;
-    }
-}
-
-@media screen and (max-width: 667px) {
-    .drink-pic {
-        width: 70%;
-        margin-left: 15%;
-    }
-    .tacos-headline {
-        width: 60%;
-        margin-left: 20%;
-    }
-    .food-pics {
-        width: 60%;
-    }
-}
-
 .menu-headline {
     background-color: #61C9A8;
     color: white;
@@ -173,24 +147,10 @@ header {
 
 }
 
-.subtitle-hero {
-    font-size: 3.5rem;
-}
-
 /* Title section end */
 
 /* Main css start */
 
-hr.divider {
-    width: 5rem;
-    border-top: 0.3rem solid #df4545;
-    margin-left: 0;
-}
-
-hr.divider-center {
-    width: 5rem;
-    border-top: 0.3rem solid #df4545;
-}
 
 .button-primary {
     border: none;
@@ -205,25 +165,6 @@ hr.divider-center {
     background-color: #db5b5b;
 }
 
-.container-border {
-    border: 0.4rem double black;
-}
-
-.button-secondary {
-    border: 0.15rem solid black;
-    padding: 1rem 2rem;
-    background-color: white;
-    color: black;
-    margin-top: 1rem;
-    font-weight: 700;
-    margin: 2rem 1rem;
-}
-
-.button-secondary:hover {
-    background-color: black;
-    color: white;
-}
-
 .img-fluid {
     margin-bottom: 1.5rem;
     margin-top: 1rem;
@@ -232,30 +173,6 @@ hr.divider-center {
 .img-circle {
     border-radius: 50%;
     margin-bottom: 2rem;
-}
-
-.container-testimonials {
-    background-image: url(assets/testimonial-bg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10rem 2rem;
-    margin-bottom: 2rem;
-}
-
-.container-testimonials h2 {
-    font-size: 4rem;
-    font-weight: 800;
-}
-
-.container-testimonials h3 {
-    font-size: 2.5rem;
-}
-
-.container-testimonials p {
-    font-weight: 400;
-    font-size: 1.3rem;
 }
 
 /* Main css end */
@@ -294,11 +211,7 @@ footer .col-sm {
     margin-bottom: 2rem;
 }
 
-footer .fa-clock, .fa-map-marker-alt {
-    font-size: 2.5rem;
-}
-
-footer .fa-facebook, .fa-instagram-square, .fa-linkedin {
+footer .fa-facebook-square, .fa-instagram-square, .fa-linkedin {
     color: #F2545B;
     font-size: 2rem;
     padding: 0.5rem;
@@ -349,6 +262,33 @@ form .btn-primary:hover {
 /* Keyeframes css end */
 
 /* Media queries start */
+
+@media screen and (max-width: 1025px) {
+    .headerFirstWord {
+        font-size: 5rem;
+    }
+    #title-home {
+        background-image: url(assets/start-bg-smaller.png);
+    }
+    .welcome {
+        height: 40rem !important;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .drink-pic {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .tacos-headline {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .food-pics {
+        width: 60%;
+    }
+}
+
 
 @media (max-width: 991px) {
     .img-main {
