@@ -119,10 +119,6 @@ header {
     background-image: url(assets/about-us-bg.jpg);
 }
 
-/* #title-home {
-    background-image: url(assets/start-bg.jpg);
-} */
-
 #title-gallery {
     background-image: url(assets/k-food3.jpg);
 }
@@ -302,29 +298,17 @@ form .btn-primary:hover {
     .display-1 {
         font-size: 3rem !important;
     }
-    .subtitle-hero {
-        font-size: 2rem;
-    }
 }
 
 @media (max-width: 767px) {
     .display-1 {
         font-size: 3rem;
     }
-    .subtitle-hero {
-        font-size: 2rem;
-    }
 }
 
 @media (max-width: 576px) {
-    .container-testimonials h2 {
-        font-size: 3rem;
-    }
     .display-1 {
         font-size: 2rem !important;
-    }
-    .subtitle-hero {
-        font-size: 1.5rem;
     }
     .welcome {
         height: 30rem;
