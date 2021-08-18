@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800;900&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
